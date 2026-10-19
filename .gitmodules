@@ -1,0 +1,4 @@
+[submodule "natural-computer-simulation-engine"]
+	path = apps/natural-computer-simulation-engine
+	url = https://github.com/red-cup-engineering/natural-computer-simulation-engine.git
+	branch = main
