@@ -255,7 +255,7 @@ operate lawfully over evidence-bearing Memes or Valuations — the level
 `composeFibers` and everything downstream of it actually works at. A
 repo-wide grep of the app's own draft code (only `src/membrane.mjs`
 exists so far; no `interior.mjs`, `engine.mjs`, or `chemistry.mjs` have
-been written) and of the entire `biology-simulation-services-section`
+been written) and of the entire `biology-simulation-engineering-services-section`
 tree outside `node_modules` turns up zero uses of `joinTruth`,
 `leqTruth`, or `meetTruth`. Every draft written to date uses only the
 knowledge order.

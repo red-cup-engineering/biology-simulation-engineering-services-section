@@ -163,10 +163,10 @@ invoked, proving the paths are not aliases.
 ## 3. The membrane service
 
 **It gets promoted.** Per the app doctrine, an app is an element of H⁰
-over its section's cover, and `biology-simulation-services-section`
+over its section's cover, and `biology-simulation-engineering-services-section`
 currently has no `services/` directory at all — the cover is empty,
 and "global section" is aspiration until
-`biology-simulation-services-section/services/membrane` exists as a
+`biology-simulation-engineering-services-section/services/membrane` exists as a
 sibling package with a real `scripts/` surface and a dependency edge
 from this app. `src/membrane.mjs` staying app-internal is the
 doctrine's own named migration seam, not a stable end state; it works
@@ -347,7 +347,7 @@ against real single-cell data is attempted and reported.
 ## 8. Build order
 
 1. Promote `src/membrane.mjs` to
-   `biology-simulation-services-section/services/membrane` and
+   `biology-simulation-engineering-services-section/services/membrane` and
    implement the §3 contract, site-presence floor plus provenanceGate,
    with the crossing journal. First test: the substrate
    characterization test's scenario, now rejected at the membrane.
